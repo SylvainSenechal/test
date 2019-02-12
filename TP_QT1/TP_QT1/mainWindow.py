@@ -69,7 +69,7 @@ class MainWindow(QMainWindow):
 		self.textEdit.setPlainText(txt.read())
 
 
-
+	##
 	###############
 	def save(self):
 		print("Save")
