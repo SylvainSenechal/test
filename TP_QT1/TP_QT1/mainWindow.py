@@ -68,6 +68,8 @@ class MainWindow(QMainWindow):
 		txt = open(fileName[0])
 		self.textEdit.setPlainText(txt.read())
 
+
+
 	###############
 	def save(self):
 		print("Save")
